@@ -1,0 +1,35 @@
+.education {
+    background: linear-gradient(135deg, #1f1f47, #3b5998); /* 🎨 Match with theme */
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff8c00; /* 🟠 Highlighted Orange */
+    margin-bottom: 20px;
+}
+
+.education-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.education-item {
+    margin-bottom: 15px;
+}
+
+.education-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.education-item p {
+    font-size: 18px;
+    color: #ddd;
+}

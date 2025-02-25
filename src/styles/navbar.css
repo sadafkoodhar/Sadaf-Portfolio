@@ -22,18 +22,20 @@
     color: #ff8c00; /* 🟠 Orange Highlight */
 }
 
-/* 🔥 Social Icons */
-.social-icon img {
+/* 🔥 Social Icons - Default */
+.social-icon a img {
     width: 30px;
     margin: 0 10px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
-.social-icon img:hover {
+/* 🔥 Social Icons - Hover Effect */
+.social-icon a:hover img {
     transform: scale(1.1);
+    filter: brightness(0) saturate(100%) invert(44%) sepia(99%) saturate(657%) hue-rotate(2deg) brightness(105%) contrast(101%);
 }
 
-/* 🔥 Let's Connect Button */
+/* 🔥 Let's Connect Button (Same Orange Hover) */
 .vvd {
     background-color: #ff8c00; /* 🟠 Matching Banner Orange */
     color: white;
@@ -47,3 +49,4 @@
 .vvd:hover {
     background-color: #e07b00; /* Darker Orange */
 }
+

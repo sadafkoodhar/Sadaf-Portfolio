@@ -1,5 +1,5 @@
 .contact {
-    background: linear-gradient(135deg, #1f1f47, #3b5998); /* 🎨 Matching banner & projects */
+    background: linear-gradient(135deg, #1f1f47, #3b5998);
     padding: 60px 0;
     color: white;
     text-align: center;
@@ -9,55 +9,65 @@
 .contact h2 {
     font-size: 36px;
     font-weight: bold;
-    color: #ff8c00; /* 🟠 Orange title */
-    margin-bottom: 20px;
+    color: #ff8c00;
+    margin-bottom: 10px;
 }
 
 .contact form {
-    background: rgba(255, 255, 255, 0.1); /* 🔥 Glassmorphism Effect */
-    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.contact input,
-.contact textarea {
-    width: 100%;
+.input-group {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
     padding: 10px;
-    margin: 10px 0;
     border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.input-group .input-icon {
+    color: #ff8c00;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
     border: none;
-}
-
-.contact textarea {
-    resize: none;
-    height: 120px;
-}
-
-.contact button {
-    background-color: #ff8c00; /* 🟠 Matching Banner Orange */
+    background: transparent;
     color: white;
-    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+}
+
+.input-group textarea {
+    resize: none;
+}
+
+.send-button {
+    background-color: #ff8c00;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.contact button:hover {
-    background-color: #e07b00; /* Darker Orange */
-}
-
-.contact img {
-    width: 80%;
-    max-width: 300px;
-    margin: 20px auto;
-}
-
-.background-image-contact {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 100%;
-    opacity: 0.1;
+}
+
+.send-button:hover {
+    background-color: #e07b00;
+}
+
+.status-message {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
