@@ -20,7 +20,7 @@ export const Testimonials = () => {
                                         </div>
                                         <div className="testimonial-item">
                                             <p>"Her expertise in Spring Boot and REST APIs is remarkable. I highly recommend her for backend development roles."</p>
-                                            <h4>- Adil Ali, Project Manager</h4>
+                                            <h4>- Adil Rajput, Project Manager</h4>
                                         </div>
                                     </div>
                                 </div>}
