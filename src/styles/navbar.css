@@ -1,0 +1,49 @@
+/* 🔥 Navbar Background (Matching Skills & Banner) */
+.navbar {
+    background: linear-gradient(135deg, #1f1f47, #3b5998); /* Dark Blue Theme */
+    padding: 15px 0;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    background: linear-gradient(135deg, #3b5998, #1f1f47); /* Darker on scroll */
+}
+
+/* 🔥 Navbar Links */
+.navbar-link {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+    color: #ff8c00; /* 🟠 Orange Highlight */
+}
+
+/* 🔥 Social Icons */
+.social-icon img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* 🔥 Let's Connect Button */
+.vvd {
+    background-color: #ff8c00; /* 🟠 Matching Banner Orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.vvd:hover {
+    background-color: #e07b00; /* Darker Orange */
+}

@@ -1,0 +1,65 @@
+.projects {
+    background: linear-gradient(135deg, #1f1f47, #3b5998); /* 🎨 Same as banner & skills */
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.projects h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff8c00; /* 🟠 Orange Title */
+    margin-bottom: 20px;
+}
+
+.project-box {
+    background: rgba(255, 255, 255, 0.1); /* 🔥 Glass Effect */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+}
+
+.project-box h4 {
+    color: #ff8c00; /* 🟠 Orange Text */
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.project-box span {
+    font-size: 16px;
+    color: #eaeaea;
+}
+
+.proj-imgbx {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.proj-imgbx img {
+    width: 100%; /* Image will scale properly */
+    height: 250px; /* Set fixed height */
+    object-fit: cover; /* Crop & adjust without stretching */
+    border-radius: 10px; /* Smooth rounded corners */
+}
+
+
+.proj-imgbx:hover img {
+    transform: scale(1.1);
+}
+
+.background-image-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.1;
+}

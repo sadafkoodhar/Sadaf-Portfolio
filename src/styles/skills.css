@@ -1,0 +1,48 @@
+.skills {
+    background: linear-gradient(135deg, #1f1f47, #3b5998); /* 🎨 Banner se match */
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.skills h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff8c00; /* 🟠 Exact Orange from Banner */
+    margin-bottom: 20px;
+}
+
+.skills-box {
+    background: rgba(255, 255, 255, 0.1); /* 🔥 Glass Effect */
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skills-slider .skill-item {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.skills-slider .skill-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+}
+
+.skills-slider h5 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff8c00; /* 🟠 Same Orange for Text */
+}
+
+.background-image-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.1;
+}

@@ -1,0 +1,40 @@
+/* 🔥 Centering Everything */
+.banner {
+    background: linear-gradient(135deg, #1f1f47, #3b5998);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* 🔥 Centering Text & Button */
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 🔥 Button Styling */
+.connect-button {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.connect-button:hover {
+    background-color: #e07b00;
+}
+
+/* 🔥 Image Centering */
+.header-image {
+    width: 100%;
+    max-width: 400px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 140, 0, 0.5));
+    margin-top: 20px;
+}

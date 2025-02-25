@@ -1,0 +1,63 @@
+.contact {
+    background: linear-gradient(135deg, #1f1f47, #3b5998); /* 🎨 Matching banner & projects */
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff8c00; /* 🟠 Orange title */
+    margin-bottom: 20px;
+}
+
+.contact form {
+    background: rgba(255, 255, 255, 0.1); /* 🔥 Glassmorphism Effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact button {
+    background-color: #ff8c00; /* 🟠 Matching Banner Orange */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background-color: #e07b00; /* Darker Orange */
+}
+
+.contact img {
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.background-image-contact {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.1;
+}
