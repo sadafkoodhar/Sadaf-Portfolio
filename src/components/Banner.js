@@ -64,7 +64,7 @@ export const Banner = () => {
                       </h1>
                       <p>I am a passionate Java Backend Developer with expertise in building scalable REST APIs using Spring Boot, Hibernate, and Microservices architecture.</p>
                       <button className="download-button">
-                        <a href="/Sadaf.pdf" download="Sadaf.pdf">
+                        <a href="/Sadaf SE-Backend.pdf" download="Sadaf SE-Backend.pdf">
                           Download CV 📄
                         </a>
                       </button>
